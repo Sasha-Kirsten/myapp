@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Welcome to <%=shopName%></title>
+        <!-- <link rel="stylesheet" type="text/css" href="public/styles/style.css"> -->
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <h1 class="my-0 mx-auto max-w-3xl text-left">Login Panel: <%=shopName%></h1>
+        <form method="POST" action="/loggedin">
+            <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Username: <input class="hover::bg-violet-100" id="username" type="text" name="username" value=""/></p>
+            <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Password: <input class="hover::bg-violet-100" id="password" type="password" name="password" value=""/></p>
+            <input type="submit" value="login"/>
+        </form>
+    </body>
+</html>

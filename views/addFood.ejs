@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Add book to <%=shopName%></title>
+    <!-- <link rel="stylesheet"  type="text/css" href="public/styles/style.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class= "my-0 mx-auto max-w-3xl text-left"><%=shopName%>: Add food at this page</h1>
+    <form method="POST" action="/foodadded">
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Name: <input class="hover:text:bg-violet-100" id="name" type="text" name="name" value="" /></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Typical values per: <input class="hover:text:bg-violet-100" id="value" type="text" name="value" value="" /></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Value of the unit: <input class="hover:text:bg-violet-100" id="valueUnit" type="text" name="valueUnit" value=""/></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Carbs<input class="hover:text:bg-violet-100" id="carbs" type="text" name="carbs" value=""/></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Fat<input class="hover:text:bg-violet-100" id="fat" type="text" name="fat" value=""/></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Protein<input class="hover:text:bg-violet-100" id="protein" type="text" name="protein" value=""/></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Salt<input class="hover:text:bg-violet-100" id="salt" type="text" name="salt" value=""/></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Sugar<input class="hover:text:bg-violet-100" id="sugar" type="text" name="sugar" value=""/></p>
+        <input class="hover:submit:bg-violet-100" type="submit" value="Add Food" />
+      </form>
+  </body>
+</html>
+

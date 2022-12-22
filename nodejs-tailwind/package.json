@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss public/styles/tailwindcss -o public/styles/main.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

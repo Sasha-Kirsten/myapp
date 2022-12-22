@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Register for <%=shopName%></title>
+    <!-- <link rel="stylesheet"  type="text/css" href="public/styles/style.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="my-0 mx-auto max-w-3xl text-left">Register for <%=shopName%></h1>
+    <form method="POST" action="/registered">
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">First name: <input class="hover:first_name:bg-violet-100" id="first_name" type="first_name" name="first_name" value="first_name"/></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Lastname: <input class="hover:last_name:bg-violet-100" id="last_name" type="last_name" name="last_name" value="last_name"/></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Username: <input class="hover:appuser:bg-violet-100" id="appuser" type="appuser" name="appuser" value="appuser"/></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Email: <input class="hover:email:bg-violet-100" id="email" type="email" name="email" value="email" /></p>
+        <p class="text-slate-500 group-hover:text-white text-sm px-10 pb-10 text-left hover:text-base">Password: <input class="hover:password:bg-violet-100" id="password" type="password" name="password" value="password"/></p>
+        <input type="submit" value="Register" />
+      </form>
+  </body>
+</html>
