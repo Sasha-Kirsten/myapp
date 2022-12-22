@@ -1,10 +1,4 @@
-Use the README to:
-
-You should include your data model or database schema (Entity Relationship diagram) including names 
-of tables or collections and their fields including primary and foreign keys. If you choose to use 
-MongoDB not SQL make sure you explain your data model in details (including the name of the database, 
-collection names, fields in each collection, references from one collection to the other, if there is any) 
-
+Use the README to: 
 
 The database is the same databse model as the Bertie's Bookshop database model, the different is there is the names and the values in the tables. 
 
