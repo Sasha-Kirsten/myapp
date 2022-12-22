@@ -1,13 +1,12 @@
 Use the README to:
 
-Highlight what parts of the app the markers should pay attention to i.e. are your work
-You should include a clear statement in the README submitted that describes what YOU have done. 
-Make sure you include the above requirements as well as "filename" and "line number" you have addressed each requirement
-
 You should include your data model or database schema (Entity Relationship diagram) including names 
 of tables or collections and their fields including primary and foreign keys. If you choose to use 
 MongoDB not SQL make sure you explain your data model in details (including the name of the database, 
 collection names, fields in each collection, references from one collection to the other, if there is any) 
+
+
+The database is the same databse model as the Bertie's Bookshop database model, the different is there is the names and the values in the tables. 
 
 
 In this food web application that I have been working on. The starting web page is a navigation bar to different webpages, the webpage are Login page, about page talking about the application, search page, add page for the food, page displaying the list of different food that is in the database, update food page, regiter page for the new users, the food API to show the foods in the json form and a logout function that can be located in the  main.js page. 
