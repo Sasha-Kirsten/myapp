@@ -1,6 +1,7 @@
 Use the README to: 
 
 The database is the same databse model as the Bertie's Bookshop database model, the different is there is the names and the values in the tables. The databse schema is in here the github, but not not on the virtual server because I do not know how to upload an image to server through Fillzilla. 
+Furthermore, I add comments everywhere in the views file that has not been done on the virtual server. The main.js file has same comments on both locations.
 
 
 In this food web application that I have been working on. The starting web page is a navigation bar to different webpages, the webpage are Login page, about page talking about the application, search page, add page for the food, page displaying the list of different food that is in the database, update food page, regiter page for the new users, the food API to show the foods in the json form and a logout function that can be located in the  main.js page. 
